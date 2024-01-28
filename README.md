@@ -5,18 +5,17 @@ Function 1: Remind Me
 remind_me() 
 
 Results 
-#[[1]]
-#[1] "Internship Contract Deadline -> 26th Jan"
-#[2] "PIPS Re-take Exam -> May 6th"            
-#[3] "Dad's Birthday -> 26th April"            
-#[4] "Internship Final Project -> 28th June"   
+
+[1] "Internship Contract Deadline -> 26th Jan"
+[2] "PIPS Re-take Exam -> May 6th"            
+[3] "Dad's Birthday -> 26th April"            
+[4] "Internship Final Project -> 28th June"   
 
 Function 2: Cheat
 
 cheat("exercise_3.1.2")
 
-# Solution to the question. This was the output given in R 
-#[1] "library(readr)\n    library(ggplot2)\n    data_url <- \"https://bit.ly/3GLVQ86\"\n    df <- readr::read_csv(data_url)\n    ggplot(data = df) + geom_point(mapping = aes(x = DATE, y = TMIN))+labs(title = \"Temperature at Schipol\",\n       x = \"Time\",\n       y = \"Temperature\"))"
+#[1] "library(readr)\n    library(ggplot2)\n    data_url <- \"https://bit.ly/3GLVQ86\"\n    df <- #readr::read_csv(data_url)\n    ggplot(data = df) + geom_point(mapping = aes(x = DATE, y = TMIN))+labs(title = \"Temperature #at Schipol\",\n       x = \"Time\",\n       y = \"Temperature\"))"
 
 
 Function 3: Make Art
